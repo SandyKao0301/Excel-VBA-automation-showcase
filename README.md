@@ -31,20 +31,4 @@ Features
 Process Diagram
 
 > Conceptual only; no vendor-specific details.
-
-```mermaid
-flowchart TD
-  A[User open Excel ] --> B{Is date 20th or later?}
-  B -->|No| C[Open normally with no action]
-  B -->|Yes| D[Create new file Checklist_YYYYMM]
-  D --> E[Clear task ranges Completed and Ongoing]
-  E --> F[Show message New file created]
-
-  %% Separator
-  X[User runs macros manually] --> G[Connect External system like SAP ]
-  G --> H[Read parameters Year Period Code]
-  H --> I[Log actions and paste Mock Screenshot or Download Report]
-
-  X --> J[Generate Email Draft]
-  J --> K[Read recipient & subject or CC]
-  K --> L[Create Outlook draft with attachment]
+> (docs/screenshots/flow-diagram.png)
