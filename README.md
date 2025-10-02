@@ -31,4 +31,5 @@ Features
 Process Diagram
 
 > Conceptual only; no vendor-specific details.
-> (docs/screenshots/flow-diagram.png)
+> docs/screenshots/flow-diagram.png
+
